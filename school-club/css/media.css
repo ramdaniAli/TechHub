@@ -1,0 +1,42 @@
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+    p
+    {
+        font-size : large ;
+    }
+
+    section, footer
+    {
+        display: list-item ; 
+    }
+}
+
+@media all and (orientation: portrait)
+{
+    p
+    {
+        font-size : small ; 
+    }
+    section 
+    {
+        display: list-item ;
+    }
+    footer
+    {
+        margin-left: auto ; 
+    }
+
+    .wave {
+    position: absolute;
+    width: 200%;
+    height: 60px;
+    bottom: 0px;
+    background: url('../assets/wave.png');
+    background-repeat: repeat-x;
+    background-size: 40% 65px;
+    transform-origin: center bottom;
+    animation: waves 4s linear infinite;
+}
+
+  
+}
